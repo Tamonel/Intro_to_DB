@@ -1,0 +1,7 @@
+# ignore env and OS files
+.env
+*.sqlite
+*.db
+.DS_Store
+node_modules/
+venv/
