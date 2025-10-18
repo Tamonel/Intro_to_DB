@@ -1,10 +1,7 @@
--- =========================================================
--- DATABASE: alx_book_store
--- DESCRIPTION: A magical schema for an online bookstore
--- =========================================================
 
-CREATE DATABASE IF NOT EXISTS ALX_BOOK_STORE;
-USE ALX_BOOK_STORE;
+
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+USE alx_book_store;
 
 CREATE TABLE AUTHORS (
     author_id INT AUTO_INCREMENT PRIMARY KEY,
